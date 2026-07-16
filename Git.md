@@ -76,4 +76,5 @@
 比較新舊版本內容差異
 ---
 
-
+先輸入`git log`或`git log -- oneline`取得版本編號
+再輸入git diff 編號 -- 檔案名稱`
