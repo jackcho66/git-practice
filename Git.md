@@ -31,3 +31,19 @@
 檢查當前目錄中的檔名和狀態
 ---
 輸入`git status`
+![alt text](image-7.png)
+紅字為未追蹤的檔案
+
+由未追蹤變更為已追蹤
+---
+輸入`git add 檔案名稱`，送出後會發現左邊檔案列表所選的檔案會出現A代表已成功新增
+![alt text](image-8.png)
+![alt text](image-9.png)
+
+可用`git status`再檢查一次，會用綠色來標示已追蹤的檔案
+![alt text](image-10.png)
+
+紀錄版本變更
+---
+輸入`git commit -m "內容"`，內容可隨意填寫
+![alt text](image-11.png)
