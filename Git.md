@@ -47,6 +47,20 @@
 ---
 若有做任何修改，左方檔案列表會出現M，提醒你尚未記錄。
 ![alt text](image-12.png)
+
 這時先輸入`git add 檔案名稱`將欲紀錄的檔案加入追蹤
 再輸入`git commit -m "內容"`，內容可隨意填寫
+![alt text](image-13.png)
+
+這時左方檔案列表的M就消失了代表已成功紀錄
 ![alt text](image-11.png)
+
+檢視歷史紀錄
+---
+輸入`git log`，這個指令會顯示先前提交的修改紀錄(提交者、時間、說明文字)
+![alt text](image-14.png)
+
+另一個指令`git log --oneline`，這個指令是git log指令的簡化版，適合快速瀏覽過去紀錄
+![alt text](image-15.png)
+
+1
