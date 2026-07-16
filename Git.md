@@ -1,7 +1,9 @@
 介紹Git的操作
 ===
+
 安裝完Git後，可開啟vscode檢查是否正確安裝
 ---
+
 1.打開vscode左上角的Terminal-New Terminal
 ![alt text](image.png)
 
@@ -25,17 +27,20 @@
 
 清空指令
 ---
+
 終端機指令太多可以輸入`clear`來清空內容
 ![alt text](image-5.png)
 
 檢查當前目錄中的檔名和狀態
 ---
+
 輸入`git status`
 ![alt text](image-7.png)
 紅字為未追蹤的檔案
 
 由未追蹤變更為已追蹤
 ---
+
 輸入`git add 檔案名稱`，送出後會發現左邊檔案列表所選的檔案會出現A代表已成功新增
 ![alt text](image-8.png)
 ![alt text](image-9.png)
@@ -45,6 +50,7 @@
 
 紀錄版本變更
 ---
+
 若有做任何修改，左方檔案列表會出現M，提醒你尚未記錄。
 ![alt text](image-12.png)
 
@@ -57,11 +63,10 @@
 
 檢視歷史紀錄
 ---
+
 輸入`git log`，這個指令會顯示先前提交的修改紀錄(提交者、時間、說明文字)
+，==按下q即可離開檢視==
 ![alt text](image-14.png)
 
 另一個指令`git log --oneline`，這個指令是git log指令的簡化版，適合快速瀏覽過去紀錄
 ![alt text](image-15.png)
-
-1
-2
