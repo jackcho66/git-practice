@@ -45,5 +45,8 @@
 
 紀錄版本變更
 ---
-輸入`git commit -m "內容"`，內容可隨意填寫
+若有做任何修改，左方檔案列表會出現M，提醒你尚未記錄。
+![alt text](image-12.png)
+這時先輸入`git add 檔案名稱`將欲紀錄的檔案加入追蹤
+再輸入`git commit -m "內容"`，內容可隨意填寫
 ![alt text](image-11.png)
