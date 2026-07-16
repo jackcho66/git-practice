@@ -70,3 +70,5 @@
 
 另一個指令`git log --oneline`，這個指令是git log指令的簡化版，適合快速瀏覽過去紀錄
 ![alt text](image-15.png)
+
+1
