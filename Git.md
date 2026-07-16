@@ -73,9 +73,14 @@
 另一個指令`git log --oneline`，這個指令是git log指令的簡化版，適合快速瀏覽過去紀錄
 ![alt text](image-15.png)
 
-比較新舊版本內容差異
+比較新舊版本內容差異與還原
 ---
 
 先輸入`git log`或`git log --oneline`取得版本編號
-![alt text](image-16.png)
-再輸入`git diff 編號 -- 檔案名稱`
+![alt text](image-19.png)
+
+再輸入`git diff 編號 -- 檔案名稱`，紅色為舊版本，綠色為新版本。
+![alt text](image-18.png)
+
+最後確認完版本後輸入`git checkout 還原點編號 -- 檔案名稱`，
+就會發現檔案被還原到所選編號紀錄。
