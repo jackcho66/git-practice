@@ -1,0 +1,33 @@
+介紹Git的操作
+===
+安裝完Git後，可開啟vscode檢查是否正確安裝
+---
+1.打開vscode左上角的Terminal-New Terminal
+![alt text](image.png)
+
+2.在底下視窗輸入`git --version`，如果有跑出版本號就代表已成功安裝
+![alt text](image-2.png)
+
+使用Git前必須先設定姓名和電子郵件，因為Git在記錄版本變更時也會記錄作者資訊
+---
+
+1.姓名設定方式為輸入`git config --global user.name "自己的姓名"`
+
+2.電子郵件設定方式為輸入`git config --global user.email "自己的電子郵件"`
+
+把目前資料夾轉成具有版本功能的儲存庫
+---
+
+輸入`git init` : 這個指令會在當前目錄建立一個隱藏.git子資料夾，用來儲存檔案變更歷史。不小心刪除的話==所有歷史和備分紀錄都會消失==
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+清空指令
+---
+終端機指令太多可以輸入`clear`來清空內容
+![alt text](image-5.png)
+
+檢查當前目錄中的檔名和狀態
+---
+輸入`git status`
