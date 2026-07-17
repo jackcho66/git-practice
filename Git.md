@@ -1,7 +1,7 @@
 介紹Git的操作
 ===
 
-安裝完Git後，可開啟vscode檢查是否正確安裝
+1.安裝完Git後，可開啟vscode檢查是否正確安裝
 ---
 
 1.打開vscode左上角的Terminal-New Terminal
@@ -10,14 +10,14 @@
 2.在底下視窗輸入`git --version`，如果有跑出版本號就代表已成功安裝
 ![alt text](image-2.png)
 
-使用Git前必須先設定姓名和電子郵件，因為Git在記錄版本變更時也會記錄作者資訊
+2.使用Git前必須先設定姓名和電子郵件，因為Git在記錄版本變更時也會記錄作者資訊
 ---
 
 1.姓名設定方式為輸入`git config --global user.name "自己的姓名"`
 
 2.電子郵件設定方式為輸入`git config --global user.email "自己的電子郵件"`
 
-把目前資料夾轉成具有版本功能的儲存庫
+3.把目前資料夾轉成具有版本功能的儲存庫
 ---
 
 輸入`git init` : 這個指令會在當前目錄建立一個隱藏.git子資料夾，用來儲存檔案變更歷史。不小心刪除的話==所有歷史和備分紀錄都會消失==
@@ -57,7 +57,7 @@
 ![alt text](image-12.png)
 
 這時先輸入`git add .`將欲紀錄的檔案放入暫存區
-再輸入`git commit -m "內容"`，內容可隨意填寫
+再輸入`git commit -m "內容"`，內容為本次修改的描述
 ![alt text](image-13.png)
 
 這時左方檔案列表的M就消失了代表已成功紀錄
@@ -76,10 +76,10 @@
 比較新舊版本內容差異與還原
 ---
 
-先輸入`git log`或`git log --oneline`取得版本編號
+先輸入`git log`或`git log --oneline`取得版本編號(前7個字符)
 ![alt text](image-19.png)
 
-再輸入`git diff 編號 -- 檔案名稱`，紅色為舊版本，綠色為新版本。
+再輸入`git diff 編號 -- 檔案名稱`，紅色為舊版本，綠色為最新版本。
 ![alt text](image-18.png)
 
 最後確認完版本後輸入`git checkout 還原點編號 -- 檔案名稱`，
