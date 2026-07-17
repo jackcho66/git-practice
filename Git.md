@@ -4,7 +4,7 @@
 1.安裝完Git後，可開啟vscode檢查是否正確安裝
 ---
 
-1.打開vscode左上角的Terminal-New Terminal。
+1.打開vscode左上角的Terminal->New Terminal。
 ![alt text](image.png)
 
 2.在底下視窗輸入`git --version`，如果有跑出版本號就代表已成功安裝。
@@ -161,6 +161,52 @@
 ---
 
 再欲上傳的文件終端輸入`git push`
+
+---
+
+邀請其他人參與專案
+---
+
+在Github儲存庫上點選`setting`->`collaborators`->`Add people`
+![alt text](image-27.png)
+![alt text](image-28.png)
+
+---
+
+下載他人儲存庫到本地端電腦使用
+---
+
+點選`code`->`複製儲存庫連結`
+![alt text](image-29.png)
+回到個人VsCode在終端輸入`git clone 貼上連結`
+
+下載好的儲存庫會變成一個子資料夾。
+![alt text](image-30.png)
+
+如果要編輯該儲存庫的內容要輸入`cd 該資料夾名稱`，切換過去後就可以用git指令操作該儲存庫。
+![alt text](image-31.png)
+
+假設有人使用`git push`提交了新的文件時，
+其他協作者只要輸入`git pull`就能將新文件拉回自己的本地端。
+
+---
+
+建立分支
+---
+
+輸入`git checkout -b 分支名稱`
+這樣的好處在於可以自由地在分支進行編輯而不用擔心破壞到主分支
+
+建立分支後，若要提交檔案到Github上要輸入`git push origin 分支名稱`
+
+此時回到Github頁面時會發現分支頁面變成2個
+
+---
+
+發起合併請求
+---
+
+---
 
 學習心得分享
 ---
