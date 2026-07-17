@@ -228,6 +228,9 @@
 ## 建立分支
 
 輸入`git checkout -b 分支名稱`
+
+![alt text](image-32.png)
+
 這樣的好處在於可以自由地在分支進行編輯而不用擔心破壞到主分支
 
 建立分支後，若要提交檔案到Github上要輸入`git push origin 分支名稱`
